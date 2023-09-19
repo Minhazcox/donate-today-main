@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'manrope_regular';
+    src: url('fonts/manrope-regular-webfont.woff2') format('woff2'),
+        url('fonts/manrope-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     width: 1440px;
     margin: 0 auto;
@@ -301,4 +309,27 @@ body {
     position: absolute;
     top: 78px;
     right: 223px;
+}
+
+.footer-title {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.footer-p {
+    font-family: 'manrope_regular';
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    text-align: center;
+}
+
+.footer-container {
+    background: #0B0D17;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
