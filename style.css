@@ -2,3 +2,46 @@ body {
     width: 1440px;
     margin: 0 auto;
 }
+
+.header-container {
+    background-image: url(images/Rectangle\ 237.png);
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.header-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-p {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    padding: 16px 12px;
+    gap: 8px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.donate-button {
+    text-align: center;
+}
