@@ -191,3 +191,44 @@ body {
     color: #707070;
     justify-content: center;
 }
+
+.appeal-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 100px;
+}
+
+.appeal {
+    display: flex;
+    column-gap: 70px;
+}
+
+.appeal-image img {
+    width: 700px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.appeal-message {
+    text-align: left;
+}
+
+.appeal-message-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: #121212;
+    word-wrap: break-word;
+}
+
+.appeal-message-p {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.contribute-button {
+    text-align: left;
+    margin-top: 40px;
+}
